@@ -1,0 +1,27 @@
+{
+  "name": "crimewiz-api",
+  "version": "1.0.0",
+  "description": "crimewiz nodejs backend",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server",
+    "start:dev": "nodemon ./src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NimbusSolutionsProvider/crimewiz-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NimbusSolutionsProvider/crimewiz-API/issues"
+  },
+  "homepage": "https://github.com/NimbusSolutionsProvider/crimewiz-API#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
